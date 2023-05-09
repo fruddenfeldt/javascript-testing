@@ -9,16 +9,29 @@ function multiply(a, b) {
 let x = 2;
 
 
-function capitalize(text) {
-    return 
-        text.toUpperCase(text.slice(0,1))
-        text.toLowerCase(text.slice(2,100))
 
+function capitalize(text) {
+    console.log( 
+        text.slice(0, 1).toUpperCase() + text.slice(1,).toLowerCase()
+    
+        )
+    }
+
+
+capitalize("I DID IT!!!!!")
+
+
+function lastLetter(text) {
+    console.log( text.slice(-1))
 
 }
 
+lastLetter("abcaåpofkeqpojgepqojgepqjogdaå")
 
-console.log(capitalize("hELLo")) 
+/* text.slice(0,1))
+        text.toLowerCase(text.slice(2,100))
+
+
 
 /* const string = 'hELLO'
 
